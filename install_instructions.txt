@@ -1,0 +1,23 @@
+1. Start anaconda prompt under Windows prompt. 
+
+- to download anaconda:  https://www.anaconda.com/download
+
+2. Create environment.
+python -m venv venv
+venv\Scripts\activate
+
+3. Copy letterwrite-0.1.0-py3-none-any.whl to location. And install 
+pip install letterwrite-0.1.0-py3-none-any.whl
+
+4. Where did it get installed?  
+pip show -f letterwrite
+
+4. Copy in and Edit install.py.  Copy where into program exist:  'C:/Users/don_m/Python/ZDAnalytics/temp/venv/Lib/site-packages'
+and copy where you want to run the program:  "C:\Users\don_m\Python\ZDAnalytics\temp"
+
+Then run install.py
+
+5. Now invoke by running the program at the location where you installed:  letterwrite
+
+6. Test it.
+
