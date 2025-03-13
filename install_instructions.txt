@@ -1,23 +1,68 @@
-1. Start anaconda prompt under Windows prompt. 
+1. Start anaconda prompt under Windows prompt.  Download anaconda, if needed. 
 
 - to download anaconda:  https://www.anaconda.com/download
 
-2. Create environment.
+2. Create openai key, if needed.   https://platform.openai.com/  See below.
+Put Environment variable in 'Search'
+Create System environment variable: OPENAI_API_KEY and copy key there.
+
+3.  Download https://github.com/donmmeyer/letterwrite using 'Code' button.
+Copy to Download folder. Put the file at the location where you will run it.
+
+3. Create environment.
 python -m venv venv
 venv\Scripts\activate
 
-3. Copy letterwrite-0.1.0-py3-none-any.whl to location. And install 
+4. Copy letterwrite-0.1.0-py3-none-any.whl to location. And install 
 pip install letterwrite-0.1.0-py3-none-any.whl
 
-4. Where did it get installed?  
+5. Where did it get installed?  
 pip show -f letterwrite
 
-4. Copy in and Edit install.py.  Copy where into program exist:  'C:/Users/don_m/Python/ZDAnalytics/temp/venv/Lib/site-packages'
-and copy where you want to run the program:  "C:\Users\don_m\Python\ZDAnalytics\temp"
+6. Copy in and Edit install.py.  Copy where into program exist:  'C:/Users/don_m/Python/ZDAnalytics/temp/venv/Lib/site-packages'
+and copy where you want to run the program:  "C:\Users\don_m\Python\ZDAnalytics\temp".  Make sure all have '/' and NOT '\'.
 
-Then run install.py
+If needed Notepad++ from here.  https://notepad-plus-plus.org/downloads/v8.4.4/
 
-5. Now invoke by running the program at the location where you installed:  letterwrite
+7. Then run: python install.py
 
-6. Test it.
+8. Now invoke by running the program at the location where you installed:  letterwrite
 
+9. Test it.
+================================================================================
+How to create openai key:
+
+1. https://platform.openai.com/
+
+2. Click on "Sign Up"
+On the homepage, locate the "Sign Up" button (usually at the top right corner).
+Click on it to begin the registration process.
+
+3. Provide Your Email Address
+Enter your email address in the provided field.
+Alternatively, you can use your Google or Microsoft account for quicker sign-up by selecting the respective option.
+
+4. Verify Your Email
+If you registered using an email address, OpenAI will send a verification email.
+Go to your email inbox and click on the verification link provided.
+
+5. Set a Password
+After verifying your email, you will be prompted to create a password.
+Make sure to choose a strong password and confirm it.
+
+6. Provide Basic Information
+Fill in any additional details required (e.g., name, organization, or other optional information).
+
+7. Agree to the Terms
+Review and accept OpenAI's terms of service and privacy policy.
+
+8. Verify Your Phone Number
+Enter your phone number for verification.
+OpenAI will send a code via SMS. Enter the code on the website to complete the verification process.
+
+9. Choose a Plan
+Select whether you'd like to use the free tier or a paid plan (e.g., ChatGPT Plus).
+For paid plans, you'll need to provide payment details.
+
+10. Start Using ChatGPT
+Once your account is set up, you can log in to the ChatGPT platform or explore other tools and APIs on the OpenAI platform.
