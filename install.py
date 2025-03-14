@@ -4,7 +4,7 @@ from pathlib import Path
 
 def setup_environment(target_location):
     # Set the source package directory explicitly
-    package_dir = Path("C:/Users/don_m/anaconda3/Lib/site-packages/letterwrite")
+    package_dir = Path("C:/Users/don_m/Python/ZDAnalytics/temp/venv/Lib/site-packages/letterwrite")
 
     # Define subfolders to copy
     folders_to_copy = ["formbase", "contacts", "log"]
