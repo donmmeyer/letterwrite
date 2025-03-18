@@ -2,9 +2,15 @@ import os
 import shutil
 from pathlib import Path
 
+# Find the current working directory and store it in a variable.
+current_directory = os.getcwd()
+
+
 def setup_environment(target_location):
     # Set the source package directory explicitly
-    package_dir = Path("C:/Users/don_m/Python/ZDAnalytics/temp/venv/Lib/site-packages/letterwrite")
+    
+    package_dir = Path(target_location) / "venv/Lib/site-packages/letterwrite"
+    package_dir.mkdir(parents=True, exist_ok=True)
 
     # Define subfolders to copy
     folders_to_copy = ["formbase", "contacts", "log"]
@@ -24,5 +30,5 @@ def setup_environment(target_location):
             print(f"Source folder {source_folder} does not exist.")
 
 
-# Example usage
-setup_environment("C:/Users/don_m/Python/ZDAnalytics/temp")
+# Pass the current directory into the setup_environment function.
+setup_environment(current_directory)
