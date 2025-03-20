@@ -7,28 +7,28 @@ Put Environment variable in 'Search'
 Create System environment variable: OPENAI_API_KEY and copy key there.
 
 3.  Download https://github.com/donmmeyer/letterwrite using 'Code' button.
-Copy to Download folder. Put the file at the location where you will run it.
+Copy to Download folder. After you unzip it, take the copy all the inside to the letterwrite-main folder and ctrl-A to select all, copy, then paste into the location 
+where you want it. Put the files at the location where you will run it.
 
-3. Create environment.
-python -m venv venv
-venv\Scripts\activate
+The location could be C:\Users\John\Python\letterwrite for example, but you can put it other places.
 
-4. Copy letterwrite-0.1.0-py3-none-any.whl to location. And install 
-pip install letterwrite-0.1.0-py3-none-any.whl
+3. Create environment at that location.
+  python -m venv venv
+  venv\Scripts\activate
+
+4. Copy letterwrite-0.1.0-py3-none-any.whl to location. And install: 
+  pip install letterwrite-0.1.0-py3-none-any.whl
 
 5. Where did it get installed?  
-pip show -f letterwrite
+  pip show -f letterwrite
 
-6. Copy in and Edit install.py.  Copy where into program exist:  'C:/Users/don_m/Python/ZDAnalytics/temp/venv/Lib/site-packages'
-and copy where you want to run the program:  "C:\Users\don_m\Python\ZDAnalytics\temp".  Make sure all have '/' and NOT '\'.
 
-If needed Notepad++ from here.  https://notepad-plus-plus.org/downloads/v8.4.4/
+6. Then run: python install.py 
+- check to see if the contents of formbase, contacts, and log folders were copied.  If not then probably the environment was not created in the letterwrite folder.
 
-7. Then run: python install.py
+7. Now invoke by running the program at the location where you installed:  letterwrite
 
-8. Now invoke by running the program at the location where you installed:  letterwrite
-
-9. Test it.
+8. Test it.
 ================================================================================
 How to create openai key:
 

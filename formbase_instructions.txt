@@ -1,0 +1,27 @@
+HOW TO MAKE TEMPLATES
+
+Make as many templates as you can to be placed in the formbase folder.  Make a lot of templates so that you have something as close as possible to the letter you are likely to write.
+Make the name the function of the letter for example:  
+
+       Client Representation.docx   or  Personal Injury Notice of Claim.docx
+
+
+Use  old word documents that you already have written.  Change the  date, names, and incidents like this. 
+
+* say for the recipient, make changes in the document like this.  
+
+  [Recipient Name]  
+  [Recipient's Title or Company Name]  
+  [Recipient's Address]  
+  [City, State, Zip Code]
+
+  Dear [Recipient Name],
+
+
+  Change the March 4, 2025 to [Date] or [timeframe]. 
+
+  For time frame put this --[insert timeframe, e.g., 14 days] 
+
+  For other particulars make it general and put it within square brackets like this [  ].
+  
+Then save the document.
